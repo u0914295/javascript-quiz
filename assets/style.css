@@ -1,0 +1,80 @@
+:root {
+    background-color: rgb(248, 173, 173);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+h1 {
+    font-size: 5.4rem;
+    color: white;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.hide {
+    display: none;    
+}
+
+
+.hidden {
+    display: none;
+}
+
+.btn {
+    font-size: 2.4rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    text-decoration: none;
+    color: purple;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    background-color: azure;
+}
+
+.flex-column-flex-center{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background-color: azure;
+    padding: 2rem 0;
+}
+
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(163, 105, 204);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+#highscore-btn {
+    background: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background-color: azure;
+    padding: 2rem 0;
+}
+
+
+
